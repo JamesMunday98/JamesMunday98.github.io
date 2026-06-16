@@ -1650,3 +1650,32 @@ button {
 
 
 
+#header .content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 3rem;
+}
+
+/* Left side */
+.home-left {
+    text-align: left;
+}
+
+/* Right side */
+.home-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Make image bigger for split screen */
+.home-right img {
+    width: 420px;
+    height: 420px;
+    object-fit: cover;
+    border-radius: 10px;
+}
