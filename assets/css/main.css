@@ -1662,7 +1662,11 @@ button {
 
 /* Left side */
 .home-left {
-    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   /* horizontal centering */
+    justify-content: center; /* vertical centering */
+    text-align: center;     /* keeps text centered too (optional) */
 }
 
 /* Right side */
